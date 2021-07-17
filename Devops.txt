@@ -1,0 +1,5 @@
+192.168.29.172
+ 192.168.56.1
+ password for osboxesubuntu:osboxes.org
+ password fro github:Devops@2021
+ 
