@@ -1,0 +1,48 @@
+GIT:
+VERSION control & source code maangement tool.
+
+BASICS GIT COMMANDS:
+git init
+git status
+git add <filename>
+git add .
+git restore --staged <filename>... to unstage
+git commit -m "custom message"  
+git remote add origin "url repo(github)"
+git push origin master/git push -u origin master
+git push origin <branch name>
+git clone "url repo"
+git pull origin master
+git branch <branchname>
+git branch
+git checkout <branchname>
+git branch -d <branchname> :delete from local repo.
+git branch --delete <branchname> :delete from remote repo.
+git merge <branchname>
+git merge master
+git rebase master
+git log
+git tag <tagname>
+git push origin <tagname>
+git push --tags
+git tag -d <tagname> :deletes from local repo.
+git tag --delete <tagname> :
+git push origin -d <tagname>:dletes from remote repo.
+git push origin --delete <tagname>
+git push origin:<tagname>
+git tag -d <tagname1> <tagname2> ;delete multiple tags from local repo.
+git push origin -d <tagname1> <tagname2>:delete multiple tags from remote repo.
+commit id =tag no.
+git checkout -b <branchname> <tagname>
+git tag <tagname> <commit id>
+git stash :midways of code but dnt want to commit.(saving files locally)
+git stash pop:reapply previosly stashed changes.
+git diff HEAD .
+git diff <commit id new version> <commit id previous version>
+git checkout <commit id>
+git revert <commit id>
+
+
+
+
+
